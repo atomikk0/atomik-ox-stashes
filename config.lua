@@ -1,6 +1,5 @@
 Config = {}
 Config.Distance = 5  -- Yazı gözükme mesafesi
-Config.Shared = false -- Tüm kişiseller ortak olsun mu?
 
 Config.Depolar = {
     [1] = {
@@ -11,6 +10,7 @@ Config.Depolar = {
         personal = false,
         jobs = false,
         gangs = false,
+        shared = false,
         coords = vector3(319.41, -234.45, 54.03)
     },
     [2] = {
@@ -21,6 +21,7 @@ Config.Depolar = {
         personal = true,
         jobs = false,
         gangs = false,
+        shared = false,
         coords = vector3(318.90, -237.32, 54.03)
     },
     [3] = {
@@ -31,6 +32,7 @@ Config.Depolar = {
         personal = false,
         jobs = "ambulance",
         gangs = false,
+        shared = true,
         coords = vector3(317.69, -239.11, 54.02)
     },
     [4] = {
@@ -41,6 +43,7 @@ Config.Depolar = {
         personal = false,
         jobs = false,
         gangs = "malikane2",
+        shared = true,
         coords = vector3(316.30, -242.98, 54.03)
     },
 }
