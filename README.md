@@ -1,4 +1,4 @@
-discord.gg/atomikdev
+Discord server: discord.gg/atomikdev
 
 Required:
 
