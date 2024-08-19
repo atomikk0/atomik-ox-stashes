@@ -34,7 +34,7 @@ CreateThread(function()
 
                     local stashId = depo.id
                     if depo.personal then
-                        stashId = Config.Shared and "Personal_"..QBCore.Functions.GetPlayerData().citizenid or stashId.."_"..QBCore.Functions.GetPlayerData().citizenid
+                        stashId = depo.shared and "Personal_"..QBCore.Functions.GetPlayerData().citizenid or stashId.."_"..QBCore.Functions.GetPlayerData().citizenid
                     end
 
                     if exports.ox_inventory:openInventory('stash', stashId) == false then
